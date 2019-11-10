@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 /*
-* Create abc method which accepts the N number of String arrays. In abc method create new array (?) which contains all
+* Create abc method which accepts the N number of String arrays. In abc method create new array (I did it through Lists) which contains all
 * elements of input arrays. In main method assign to null all elements of abc method that equal to cmd line args.
 * Print elements of the renewed array */
 public class ArrayOutput {

@@ -9,14 +9,13 @@ public class ArrayListSorting {
 * method abc should accept varargs of strings, put them into ArrayList structure, sort values, delete duplicates and
 * print result */
     private static void abc(String ... strings){
-        ArrayList<String> stringArrayList = new ArrayList<>(Arrays.asList(strings));
-        Collections.sort(stringArrayList);
         ArrayList<String> newStringArrayList = new ArrayList<>();
-        for (String string : stringArrayList){
-            if (!newStringArrayList.contains(string)) {
-                newStringArrayList.add(string);
+        for (String s : strings){
+            if (!newStringArrayList.contains(s)) {
+                newStringArrayList.add(s);
             }
         }
+        Collections.sort(newStringArrayList);
         System.out.println(newStringArrayList);
     }
 

@@ -1,7 +1,7 @@
 package com.company;
 
 public class Animal {
-    private int eyes;
+    public int eyes;
 
     public Animal(){
         System.out.println("I am animal");
